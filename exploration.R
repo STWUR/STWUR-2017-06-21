@@ -63,7 +63,7 @@ predict(chosen_predictor, newdata = data.frame(n_pokoj = 3,
                                                pietro_maks = 7, 
                                                dzielnica = "Stare Miasto"))
 
-save(res, affordable_res, file = "./results/tuning.RData")
+#save(res, affordable_res, file = "./results/tuning.RData")
 
 # do sprawdzenia: głębokie sieci neuronowe i lasy losowe
 makeLearner("classif.dbnDNN", predict.type = "prob")
