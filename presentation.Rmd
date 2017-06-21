@@ -17,7 +17,6 @@ mieszkania <- na.omit(read.csv("https://raw.githubusercontent.com/STWUR/STWUR-20
 
 https://tinyurl.com/stwur6 - kody i dane do dzisiejszego spotkania.
 
-Wygenerowanie tej prezentacji wymaga uruchomienia pliku **analysis.R**
 
 ## mlr
 
